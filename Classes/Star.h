@@ -17,7 +17,7 @@ public:
 	void setPos(const cocos2d::CCPoint& pos);
 	cocos2d::CCPoint getDestPos();
 	void setDestPos(const cocos2d::CCPoint& pos);
-	void draw();
+	//void draw();
 
 	void onUpdate(float delta);
 

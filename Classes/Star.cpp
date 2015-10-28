@@ -96,7 +96,7 @@ bool Star::init()
 	return true;
 }
 
-
+/*
 void Star::draw(void)
 {
 	CC_PROFILER_START_CATEGORY(kCCProfilerCategorySprite, "CCSprite - draw");
@@ -173,6 +173,7 @@ void Star::draw(void)
 	CC_PROFILER_STOP_CATEGORY(kCCProfilerCategorySprite, "CCSprite - draw");
 }
 
+*/
 
 void Star::onUpdate(float delta)
 {
@@ -180,6 +181,7 @@ void Star::onUpdate(float delta)
 	if ( curPos.equals(destPos) )
 	{
 		setPosition(destPos);
+		return;
 	}
 
 	float speedX = 0.f;
